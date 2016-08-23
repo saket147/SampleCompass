@@ -49,9 +49,7 @@ public class MainActivity extends Activity implements SensorEventListener {
     public void onSensorChanged(SensorEvent event) {
         float degree = Math.round(event.values[0]);
         tvHeading.setText("Heading: " + Float.toString(degree) + " degrees");
-        RotateAnimation ra = new RotateAnimation(
-
-                currentDegree,
+        RotateAnimation ra = new RotateAnimation(currentDegree,
                 -degree,
                 Animation.RELATIVE_TO_SELF, 0.5f,
                 Animation.RELATIVE_TO_SELF, 0.5f);
