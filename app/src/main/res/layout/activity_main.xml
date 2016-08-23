@@ -28,7 +28,7 @@
     android:layout_below="@+id/tvHeading"
     android:layout_centerHorizontal="true"
     android:src="@drawable/img_compass"
-    android:background="@color/colorWhite"/>
+        android:background="@color/colorWhite"/>
 
 
 </LinearLayout>
